@@ -18,6 +18,6 @@ from django.urls import path
 from django.conf.urls import url
 from blog import views
 urlpatterns = [
-    url('base/', views.base, name='base'),
-    url('home/', views.home, name="home")
+    url('home/', views.home, name="home"),
+    url('about/', views.about, name='about'),
 ]
