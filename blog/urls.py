@@ -16,8 +16,8 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from django.conf.urls import url
-
+from blog import views
 urlpatterns = [
-    #url(r'^$', 'blog.views.blog', name='index'),
+    url('base/', views.base, name='base'),
+    url('home/', views.home, name="home")
 ]
-

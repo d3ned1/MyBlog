@@ -1,0 +1,32 @@
+{% extends 'blog/base.html' %}
+
+{% block title %}
+Homepage
+{% endblock %}
+
+{% block content_main %}
+    <h1>Welcome to my website!</h1>
+    <p><h2>You are on Homepage now.</h2></p>
+{% endblock %}
+
+    {% block col_1.head %}
+        News of IT and electronics.
+    {% endblock %}
+    {% block col_1.content%}
+        The most valuable and outstanding news for the current month.
+    {% endblock %}
+
+    {% block col_2.head %}
+        Life in the Ocean.
+    {% endblock %}
+    {% block col_2.content%}
+        Amazing article from other side of the deep water.
+    {% endblock %}
+
+    {% block col_3.head %}
+        Politics and economics.
+    {% endblock %}
+    {% block col_3.content%}
+        Read about last politic events all around the world.
+    {% endblock %}
+
